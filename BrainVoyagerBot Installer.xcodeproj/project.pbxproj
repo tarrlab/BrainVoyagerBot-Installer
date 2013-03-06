@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874F865516B2F8BC00C625F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874F865416B2F8BC00C625F4 /* Cocoa.framework */; };
+		874F865716B2F8BC00C625F4 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874F865616B2F8BC00C625F4 /* AppleScriptObjC.framework */; };
+		874F866116B2F8BC00C625F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874F865F16B2F8BC00C625F4 /* InfoPlist.strings */; };
+		874F866316B2F8BC00C625F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F866216B2F8BC00C625F4 /* main.m */; };
+		874F866716B2F8BC00C625F4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 874F866516B2F8BC00C625F4 /* Credits.rtf */; };
+		874F866916B2F8BC00C625F4 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 874F866816B2F8BC00C625F4 /* AppDelegate.applescript */; };
+		874F866C16B2F8BC00C625F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 874F866A16B2F8BC00C625F4 /* MainMenu.xib */; };
+		874F867316B2F8E500C625F4 /* FMR_Maker.js in Resources */ = {isa = PBXBuildFile; fileRef = 874F867216B2F8E500C625F4 /* FMR_Maker.js */; };
+		874F867516B2F8EF00C625F4 /* VTC_Maker.js in Resources */ = {isa = PBXBuildFile; fileRef = 874F867416B2F8EF00C625F4 /* VTC_Maker.js */; };
+		87EA07E016B3A3360042DD1E /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87EA07DF16B3A3360042DD1E /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		874F865016B2F8BC00C625F4 /* BrainVoyagerBot Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrainVoyagerBot Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F865416B2F8BC00C625F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		874F865616B2F8BC00C625F4 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		874F865916B2F8BC00C625F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		874F865A16B2F8BC00C625F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		874F865B16B2F8BC00C625F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874F865E16B2F8BC00C625F4 /* BrainVoyagerBot Installer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainVoyagerBot Installer-Info.plist"; sourceTree = "<group>"; };
+		874F866016B2F8BC00C625F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874F866216B2F8BC00C625F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874F866416B2F8BC00C625F4 /* BrainVoyagerBot Installer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainVoyagerBot Installer-Prefix.pch"; sourceTree = "<group>"; };
+		874F866616B2F8BC00C625F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		874F866816B2F8BC00C625F4 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		874F866B16B2F8BC00C625F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		874F867216B2F8E500C625F4 /* FMR_Maker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FMR_Maker.js; sourceTree = "<group>"; };
+		874F867416B2F8EF00C625F4 /* VTC_Maker.js */ = {isa = PBXFileReference; explicitFileType = sourcecode.javascript; fileEncoding = 4; path = VTC_Maker.js; sourceTree = "<group>"; };
+		87EA07DF16B3A3360042DD1E /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874F864D16B2F8BC00C625F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F865516B2F8BC00C625F4 /* Cocoa.framework in Frameworks */,
+				874F865716B2F8BC00C625F4 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874F864516B2F8BC00C625F4 = {
+			isa = PBXGroup;
+			children = (
+				87EA07DF16B3A3360042DD1E /* icon.icns */,
+				874F865C16B2F8BC00C625F4 /* BrainVoyagerBot Installer */,
+				874F865316B2F8BC00C625F4 /* Frameworks */,
+				874F865116B2F8BC00C625F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874F865116B2F8BC00C625F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874F865016B2F8BC00C625F4 /* BrainVoyagerBot Installer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874F865316B2F8BC00C625F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874F865416B2F8BC00C625F4 /* Cocoa.framework */,
+				874F865616B2F8BC00C625F4 /* AppleScriptObjC.framework */,
+				874F865816B2F8BC00C625F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874F865816B2F8BC00C625F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874F865916B2F8BC00C625F4 /* AppKit.framework */,
+				874F865A16B2F8BC00C625F4 /* CoreData.framework */,
+				874F865B16B2F8BC00C625F4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		874F865C16B2F8BC00C625F4 /* BrainVoyagerBot Installer */ = {
+			isa = PBXGroup;
+			children = (
+				874F867416B2F8EF00C625F4 /* VTC_Maker.js */,
+				874F867216B2F8E500C625F4 /* FMR_Maker.js */,
+				874F866816B2F8BC00C625F4 /* AppDelegate.applescript */,
+				874F866A16B2F8BC00C625F4 /* MainMenu.xib */,
+				874F865D16B2F8BC00C625F4 /* Supporting Files */,
+			);
+			path = "BrainVoyagerBot Installer";
+			sourceTree = "<group>";
+		};
+		874F865D16B2F8BC00C625F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874F865E16B2F8BC00C625F4 /* BrainVoyagerBot Installer-Info.plist */,
+				874F865F16B2F8BC00C625F4 /* InfoPlist.strings */,
+				874F866216B2F8BC00C625F4 /* main.m */,
+				874F866416B2F8BC00C625F4 /* BrainVoyagerBot Installer-Prefix.pch */,
+				874F866516B2F8BC00C625F4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874F864F16B2F8BC00C625F4 /* BrainVoyagerBot Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874F866F16B2F8BC00C625F4 /* Build configuration list for PBXNativeTarget "BrainVoyagerBot Installer" */;
+			buildPhases = (
+				874F864C16B2F8BC00C625F4 /* Sources */,
+				874F864D16B2F8BC00C625F4 /* Frameworks */,
+				874F864E16B2F8BC00C625F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BrainVoyagerBot Installer";
+			productName = "BrainVoyagerBot Installer";
+			productReference = 874F865016B2F8BC00C625F4 /* BrainVoyagerBot Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874F864716B2F8BC00C625F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Deb;
+			};
+			buildConfigurationList = 874F864A16B2F8BC00C625F4 /* Build configuration list for PBXProject "BrainVoyagerBot Installer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 874F864516B2F8BC00C625F4;
+			productRefGroup = 874F865116B2F8BC00C625F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874F864F16B2F8BC00C625F4 /* BrainVoyagerBot Installer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874F864E16B2F8BC00C625F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F866116B2F8BC00C625F4 /* InfoPlist.strings in Resources */,
+				874F866716B2F8BC00C625F4 /* Credits.rtf in Resources */,
+				874F866C16B2F8BC00C625F4 /* MainMenu.xib in Resources */,
+				874F867516B2F8EF00C625F4 /* VTC_Maker.js in Resources */,
+				874F867316B2F8E500C625F4 /* FMR_Maker.js in Resources */,
+				87EA07E016B3A3360042DD1E /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874F864C16B2F8BC00C625F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F866316B2F8BC00C625F4 /* main.m in Sources */,
+				874F866916B2F8BC00C625F4 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		874F865F16B2F8BC00C625F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874F866016B2F8BC00C625F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		874F866516B2F8BC00C625F4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874F866616B2F8BC00C625F4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		874F866A16B2F8BC00C625F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874F866B16B2F8BC00C625F4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874F866D16B2F8BC00C625F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		874F866E16B2F8BC00C625F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		874F867016B2F8BC00C625F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainVoyagerBot Installer/BrainVoyagerBot Installer-Prefix.pch";
+				INFOPLIST_FILE = "BrainVoyagerBot Installer/BrainVoyagerBot Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874F867116B2F8BC00C625F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainVoyagerBot Installer/BrainVoyagerBot Installer-Prefix.pch";
+				INFOPLIST_FILE = "BrainVoyagerBot Installer/BrainVoyagerBot Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874F864A16B2F8BC00C625F4 /* Build configuration list for PBXProject "BrainVoyagerBot Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F866D16B2F8BC00C625F4 /* Debug */,
+				874F866E16B2F8BC00C625F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874F866F16B2F8BC00C625F4 /* Build configuration list for PBXNativeTarget "BrainVoyagerBot Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F867016B2F8BC00C625F4 /* Debug */,
+				874F867116B2F8BC00C625F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874F864716B2F8BC00C625F4 /* Project object */;
+}
